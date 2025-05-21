@@ -1,0 +1,106 @@
+.judul-cowboy {
+  position: absolute;
+  left: 209px;
+  top: 286px;
+  width: 381px;
+  height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* bold */
+  font-size: 20px; /* Adjust biar pas di height 30px */
+  color: #DF6951;
+  line-height: 30px;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tagline-hero-plain {
+  position: absolute;
+  left: 209px;
+  top: 340px;
+  width: 640px;
+  height: 267px;
+  font-family: 'Volkhov', serif;
+  font-weight: 700; /* Bold */
+  font-size: 84px;
+  line-height: 89px; /* fixed pixel */
+  letter-spacing: -0.04em; /* -4% dari font size */  
+  color: #181E4B;
+  margin: 0;
+}
+
+
+.copy-santai {
+  position: absolute;
+  left: 207px;
+  top: 637px;
+  width: 643px;
+  height: 90px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; /* medium */
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5E6282;
+  margin: 0;
+}
+
+.btn-contact-us {
+  position: absolute;
+  left: 1178px;
+  top: 116px;
+  width: 102px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212832;
+
+  border: 1px solid #212832;
+  border-radius: 5px;
+  
+  text-decoration: none;
+  cursor: pointer;
+
+  user-select: none;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-contact-us:hover {
+  background-color: #212832;
+  color: white;
+}
+
+.btn-main {
+  position: absolute;
+  left: 207px;
+  top: 761px;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #FFD700; /* kuning */
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+
+  user-select: text;
+}
+
+/* Styling warna saat teks diseleksi (highlight) */
+.btn-main::selection {
+  background: #FFD700; /* kuning */
+  color: #FFFFFF;      /* putih */
+}
